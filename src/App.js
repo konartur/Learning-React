@@ -6,6 +6,7 @@ import ListGroup from "./ListGroup";
 import comments from "./comments.json";
 import Clock from "./Clock";
 import Toggle from "./Toggle";
+import ToggleColor from "./ToggleColor";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ListGroup items={comments}/> */}
       <Clock />
       <Toggle />
+      <ToggleColor />
     </React.Fragment>
   );
 }
