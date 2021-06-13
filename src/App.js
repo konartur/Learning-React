@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import List from "./List";
+import Table from "./Table";
+import data from "./data.json";
+import ListGroup from "./ListGroup";
+import comments from "./comments.json";
+import Clock from "./Clock";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      {/* <List items={["test1","test2","test3","test4"]}/>
+      <Table data={data}/>
+      <ListGroup items={comments}/> */}
+      <Clock />
+    </React.Fragment>
   );
 }
 
