@@ -5,6 +5,7 @@ import data from "./data.json";
 import ListGroup from "./ListGroup";
 import comments from "./comments.json";
 import Clock from "./Clock";
+import Toggle from "./Toggle";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Table data={data}/>
       <ListGroup items={comments}/> */}
       <Clock />
+      <Toggle />
     </React.Fragment>
   );
 }
