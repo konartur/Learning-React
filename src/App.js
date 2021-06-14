@@ -7,6 +7,7 @@ import comments from "./comments.json";
 import Clock from "./Clock";
 import Toggle from "./Toggle";
 import ToggleColor from "./ToggleColor";
+import ModalWindow from "./ModalWindow";
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       {/* <List items={["test1","test2","test3","test4"]}/>
       <Table data={data}/>
       <ListGroup items={comments}/> */}
-      <Clock />
+      {/* <Clock />
       <Toggle />
-      <ToggleColor />
+      <ToggleColor /> */}
+      <ModalWindow />
     </React.Fragment>
   );
 }
