@@ -1,12 +1,12 @@
 import React from "react";
-import List from "./List";
-import Table from "./Table";
-import data from "./data.json";
-import ListGroup from "./ListGroup";
-import comments from "./comments.json";
-import Clock from "./Clock";
-import Toggle from "./Toggle";
-import ToggleColor from "./ToggleColor";
+// import List from "./List";
+// import Table from "./Table";
+// import data from "./data.json";
+// import ListGroup from "./ListGroup";
+// import comments from "./comments.json";
+// import Clock from "./Clock";
+// import Toggle from "./Toggle";
+// import ToggleColor from "./ToggleColor";
 import ModalWindow from "./ModalWindow";
 
 function App() {
