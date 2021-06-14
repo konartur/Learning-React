@@ -1,6 +1,7 @@
 import { stylesModal } from "./styles/modalWindow";
+import ModalButton from "./ModalButton";
 
-function ModalWindow() {
+export default function ModalWindow() {
   return (
     <div style={stylesModal.Background}>
       <div style={stylesModal.Modal}>
@@ -23,15 +24,9 @@ function ModalWindow() {
             style={stylesModal.Form__message}
             placeholder="Комментарий"
           />
-          <input
-            type="submit"
-            style={stylesModal.Form__button}
-            value="Заказать"
-          />
+          <ModalButton style={stylesModal.Form__button} />
         </form>
       </div>
     </div>
   );
 }
-
-export default ModalWindow;
